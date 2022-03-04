@@ -8,6 +8,7 @@ import func_utils
 
 
 def collater(data):
+    print("Hii")
     out_data_dict = {}
     for name in data[0]:
         out_data_dict[name] = []
